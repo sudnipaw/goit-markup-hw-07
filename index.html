@@ -24,32 +24,32 @@
             >Web<span class="header__logo-studio">Studio</span></a
           >
         </p>
-        <nav class="header__navigation">
-          <ul class="header__navigation-list">
-            <li class="header__navigation-item">
-              <a class="header__navigation-link active" href="./index.html">Agencja</a>
+        <nav class="navigation">
+          <ul class="navigation__list">
+            <li class="navigation__item">
+              <a class="navigation__link active" href="./index.html">Agencja</a>
             </li>
-            <li class="nav-list-item">
-              <a class="nav-link" href="./portfolio.html">Portfolio</a>
+            <li class="navigation__item">
+              <a class="navigation__link" href="./portfolio.html">Portfolio</a>
             </li>
-            <li class="nav-list-item">
-              <a class="nav-link" href="Kontakt">Kontakt</a>
+            <li class="navigation__item">
+              <a class="navigation__link" href="Kontakt">Kontakt</a>
             </li>
           </ul>
         </nav>
-        <div class="mail-phone">
-          <ul class="phone-mail">
+        <div class="header-contact">
+          <ul class="header-contact__list">
             <li>
-              <a class="nav-mail" href="info@defstudio.com">
-                <svg class="icon-header" width="16" height="12">
+              <a class="header-contact__mail" href="info@defstudio.com">
+                <svg class="header-contact__icon" width="16" height="12">
                   <use href="./images/icons.svg#icon-envelope"></use>
                 </svg>
                 info@devstudio.com</a
               >
             </li>
             <li>
-              <a class="nav-phone" href="+48111111111"
-                ><svg class="icon-header" width="16" height="12">
+              <a class="header-contact__phone" href="+48111111111"
+                ><svg class="header-contact__icon" width="16" height="12">
                   <use href="./images/icons.svg#icon-smartphone"></use>
                 </svg>
                 tel:+48111111111</a
@@ -61,39 +61,39 @@
     </header>
 
     <main>
-      <div class="container-motto">
-        <h1 class="motto">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-        <button data-modal-open class="button" type="button">Zamów usługę</button>
+      <div class="motto">
+        <h1 class="motto__text">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <button data-modal-open class="motto__button" type="button">Zamów usługę</button>
         <div class="backdrop is-hidden" data-modal>
-          <section class="modal-content">
-            <button class="modal-exit" data-modal-close>X</button>
-            <form name="contact-form" autocomplite="on" class="contact-form">
-            <h2 class="contact-header">Zostaw swoje dane w formularzu poniżej</h2>
-            <label class="contact-label">Imię
-              <input type="text" name="contact-name" class="contact-input contact-name"/>
-              <svg class="icon-modal" width="18px" height="18px">
+          <section class="modal">
+            <button class="modal__exit" data-modal-close>X</button>
+            <form name="contact-form" autocomplite="on" class="modal-form">
+            <h2 class="modal-form__header">Zostaw swoje dane w formularzu poniżej</h2>
+            <label class="modal-form__label">Imię
+              <input type="text" name="contact-name" class="modal-form__input contact-name"/>
+              <svg class="modal-form__icon" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-user-modal"></use>
               </svg>
             </label>
-            <label class="contact-label">Telefon
-              <input type="tel" name="contact-phone" class="contact-input contact-phone"/>
+            <label class="modal-form__label">Telefon
+              <input type="tel" name="contact-phone" class="modal-form__input contact-phone"/>
               <svg class="icon-modal" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-phone-modal"></use>
               </svg>
             </label>
-            <label class="contact-label">Email
-              <input type="emal" name="contact-email" class="contact-input contact-email"/>
+            <label class="modal-form__label">Email
+              <input type="email" name="contact-email" class="modal-form__input contact-email"/>
               <svg class="icon-modal" width="18px" height="18px">
                 <use href="./images/icons.svg#icon-email-modal"></use>
               </svg>
             </label>
-            <label class="contact-label">
+            <label class="modal-form__label">
               Komentarz
             </label>
             <textarea
             name="contact-comment"
             placeholder="Wprowadź tekst..."
-            class="contact-input contact-comment"
+            class="modal-form__input contact-comment"
           ></textarea>
         </label>
         <label class="contact-check"
