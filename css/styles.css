@@ -595,7 +595,7 @@
   color: rgba(255, 255, 255, 1);
   padding-top: 20px;
 }
-.nav-mail-footer {
+.footer-contact__mail {
   list-style: none;
   text-decoration: none;
   font-family: "Roboto";
@@ -605,16 +605,16 @@
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
-.nav-mail-footer:hover {
+.footer-contact__mail:hover {
   color: rgba(33, 150, 243, 1);
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.mail-phone-footer {
+.footer-contact__item {
   padding-top: 9px;
 }
-.nav-phone-footer {
+.footer-contact__phone {
   list-style: none;
   text-decoration: none;
   font-family: "Roboto";
@@ -624,7 +624,7 @@
   line-height: 24px;
   color: rgba(255, 255, 255, 0.6);
 }
-.nav-phone-footer:hover {
+.footer-contact__phone:hover {
   color: rgba(33, 150, 243, 1);
   transition-property: color;
   transition-duration: 250ms;
@@ -634,7 +634,7 @@
   padding-top: 70px;
   padding-left: 70px;
 }
-.footer-socialmedia-header {
+.footer-socialmedia__header {
   width: 113px;
   height: 16px;
   left: 531px;
@@ -648,11 +648,11 @@
   text-transform: uppercase;
   color: white;
 }
-.footer-socialmedia-list {
+.footer-socialmedia__list {
   display: flex;
   gap: 10px;
 }
-.footer-socialmedia-logo {
+.footer-socialmedia__logo {
   list-style: none;
   width: 44px;
   height: 44px;
@@ -664,15 +664,15 @@
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
   fill: white;
 }
-.footer-socialmedia-logo:hover,
-.footer-socialmedia-logo:focus {
+.footer-socialmedia__logo:hover,
+.footer-socialmedia__logo:focus {
   background-color: #2196f3;
   cursor: pointer;
   transition-property: background-color, fill;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.newsletter-info {
+.footer-newsletter__info {
   padding-bottom: 20px;
   font-family: "Roboto";
   font-style: normal;
@@ -683,7 +683,7 @@
   text-transform: uppercase;
   color: #ffffff;
 }
-.newsletter-input {
+.footer-newsletter {
   position: absolute;
   width: 570px;
   height: 86px;
@@ -701,7 +701,7 @@
   margin-right: 215px;
   margin-bottom: 94px;
 }
-.newsletter-email {
+.footer-newsletter__input {
   height: 50px;
   width: 358px;
   font-family: Roboto;
@@ -717,7 +717,7 @@
   background: rgba(47, 48, 58, 1);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
 }
-.newsletter-button {
+.footer-newsletter__button {
   width: 200px;
   height: 50px;
   font-family: "Roboto";
@@ -732,6 +732,7 @@
   border-radius: 4px;
   border: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  cursor: pointer;
 }
 .nav-agency-portfolio {
   font-family: "Roboto";
