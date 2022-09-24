@@ -64,15 +64,15 @@
       </div>
     </header>
     <main>
-      <div class="portfolio-menu-container">
-        <ul class="buttons-portfolio-menu">
-          <li><button class="portfolio-menu">Wszystkie</button></li>
-          <li><button class="portfolio-menu">Strony</button></li>
-          <li><button class="portfolio-menu">Aplikacje</button></li>
-          <li><button class="portfolio-menu">Dizajn</button></li>
-          <li><button class="portfolio-menu">Marketing</button></li>
+      <div class="portfolio">
+        <ul class="portfolio-menu">
+          <li><button class="portfolio-menu__item">Wszystkie</button></li>
+          <li><button class="portfolio-menu__item">Strony</button></li>
+          <li><button class="portfolio-menu__item">Aplikacje</button></li>
+          <li><button class="portfolio-menu__item">Dizajn</button></li>
+          <li><button class="portfolio-menu__item">Marketing</button></li>
         </ul>
-        <ul class="portfolio-img">
+        <ul class="portfolio-content">
           <li class="figcaption-box">
             <figure class="portfolio-card">
               <img
@@ -281,58 +281,62 @@
       </div>
     </main>
     <footer>
-      <div class="container-footer">
-        <ul class="footer-list">
-          <li class="footer-logo">
-            <a class="logo-footer" href="webstudio"
-              >Web<span class="studio-footer">Studio</span></a
+      <div class="footer">
+        <ul class="footer-contact">
+          <li>
+            <a class="footer-contact__web" href="webstudio"
+              >Web<span class="footer-contact__studio">Studio</span></a
             >
           </li>
-          <li class="adress-footer">m. Warszawa, Aleje Jerozolimskie 21</li>
-          <li class="mail-phone-footer">
-            <a class="nav-mail-footer" href="info@defstudio.com"
+          <li class="footer-contact__adress">
+            m. Warszawa, Aleje Jerozolimskie 21
+          </li>
+          <li class="footer-contact__item">
+            <a class="footer-contact__mail" href="info@defstudio.com"
               >info@defstudio.com</a
             >
           </li>
-          <li class="mail-phone-footer">
-            <a class="nav-phone-footer" href="+48111111111">tel:+48111111111</a>
+          <li class="footer-contact__item">
+            <a class="footer-contact__phone" href="+48111111111"
+              >tel:+48111111111</a
+            >
           </li>
         </ul>
         <div class="footer-socialmedia">
-          <h3 class="footer-socialmedia-header">DOŁĄCZ DO NAS</h3>
-          <ul class="footer-socialmedia-list">
-            <li class="footer-socialmedia-logo">
+          <h3 class="footer-socialmedia__header">DOŁĄCZ DO NAS</h3>
+          <ul class="footer-socialmedia__list">
+            <li class="footer-socialmedia__logo">
               <svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-instagram"></use>
               </svg>
             </li>
-            <li class="footer-socialmedia-logo">
+            <li class="footer-socialmedia__logo">
               <svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-twitter"></use>
               </svg>
             </li>
-            <li class="footer-socialmedia-logo">
+            <li class="footer-socialmedia__logo">
               <svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-facebook"></use>
               </svg>
             </li>
-            <li class="footer-socialmedia-logo">
+            <li class="footer-socialmedia__logo">
               <svg width="20px" height="20px">
                 <use href="./images/icons.svg#icon-linkedin2"></use>
               </svg>
             </li>
           </ul>
         </div>
-        <div class="newsletter-input-portfolio">
-          <h4 class="newsletter-info">Zapisz się do newslettera</h4>
+        <div class="footer-newsletter__portfolio">
+          <h4 class="footer-newsletter__info">Zapisz się do newslettera</h4>
           <form>
             <input
               type="email"
               name="newsletter-email"
               placeholder="E-mail"
-              class="newsletter-email"
+              class="footer-newsletter__input"
             />
-            <button type="submit" class="newsletter-button">
+            <button type="submit" class="footer-newsletter__button">
               Zapisz się
               <svg width="24px" height="24px">
                 <use href="./images/icons.svg#icon-send"></use>
