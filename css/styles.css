@@ -802,12 +802,12 @@
   gap: 30px;
 }
 
-.figcaption-box {
+.portfolio-content__box {
   border: 1px solid rgba(238, 238, 238, 1);
   margin: 0px;
   padding: 0px;
 }
-.figcaption-box:hover {
+.portfolio-content__box:hover {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
   cursor: pointer;
@@ -815,40 +815,7 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
-.portfolio-figcaption {
-  overflow: hidden;
-  position: relative;
-  width: 322px;
-  height: 70px;
-  padding-left: 24px;
-  padding-right: 24px;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  background-color: white;
-}
-.portfolio-figcaption-name {
-  font-family: "Roboto";
-  font-style: normal;
-  height: 36px;
-  width: 325px;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 36px;
-  letter-spacing: 0.06em;
-  color: #212121;
-}
-.portfolio-figcaption-role {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 30px;
-  letter-spacing: 0.03em;
-  color: #757575;
-  padding-top: 4px;
-}
-.portfolio-card {
+.portfolio-content__card {
   margin: 0px;
   padding: 0;
   height: 404px;
@@ -871,14 +838,14 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-card:hover .portfolio-overlay {
+.portfolio-content__card:hover .portfolio-overlay {
   background: rgba(33, 150, 243, 0.9);
   transform: translateY(0);
   transition: transform 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.portfolio-overlay-text {
+.portfolio-overlay__text {
   height: 196px;
   width: 301px;
   font-family: Roboto;
@@ -892,6 +859,39 @@
   padding-bottom: 49px;
   padding-left: 24px;
 }
+.portfolio-overlay__figcaption {
+  overflow: hidden;
+  position: relative;
+  width: 322px;
+  height: 70px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-color: white;
+}
+.portfolio-overlay__name {
+  font-family: "Roboto";
+  font-style: normal;
+  height: 36px;
+  width: 325px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+.portfolio-overlay__role {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  padding-top: 4px;
+}
+
 .header {
   width: 1600px;
   height: 80px;
