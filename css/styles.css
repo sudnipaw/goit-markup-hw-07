@@ -727,34 +727,6 @@
   cursor: pointer;
 }
 
-.nav-agency-portfolio {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #212121;
-}
-.nav-portfolio-portfolio {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #2196f3;
-}
-.nav-portfolio-mail {
-  font-family: "Roboto";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  color: #757575;
-}
-
 /* PORTFOLIO */
 
 .portfolio {
@@ -896,9 +868,4 @@
   width: 1600px;
   height: 80px;
   display: flex;
-}
-.container-portfolio {
-  width: 1600px;
-  display: flex;
-  border: 1px solid #ececec;
 }
