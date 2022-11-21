@@ -242,6 +242,7 @@
   margin-top: 40px;
 }
 .modal-form__label {
+  position: relative;
   font-family: Roboto;
   font-size: 12px;
   font-weight: 400;
@@ -265,6 +266,9 @@
 }
 .modal-form__icon {
   position: absolute;
+  display: block;
+  top: 34;
+  left: 10;
 }
 .modal-form__icon:focus {
   fill: #2196f3;
